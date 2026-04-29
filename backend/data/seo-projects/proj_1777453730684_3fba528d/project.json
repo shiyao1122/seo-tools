@@ -1,0 +1,33 @@
+{
+  "id": "proj_1777453730684_3fba528d",
+  "keyword": "ai princess generator",
+  "templateId": "online-enhance-template-id14451",
+  "templateVersion": "1.0.0",
+  "createdAt": 1777453730684,
+  "status": "completed",
+  "steps": {
+    "step1": {
+      "status": "completed",
+      "file": "content-proj_1777453730684_3fba528d.md",
+      "error": "Connection Timeout. Please check your proxy settings in .env! Detail: fetch failed",
+      "analysedPages": 9,
+      "templateId": "online-enhance-template-id14451"
+    },
+    "step2": {
+      "status": "skipped",
+      "file": null,
+      "finalFile": "content-proj_1777453730684_3fba528d-final.md",
+      "totalImages": 0
+    },
+    "step3": {
+      "status": "skipped",
+      "images": []
+    },
+    "step4": {
+      "status": "completed",
+      "files": [],
+      "package": "package-proj_1777453730684_3fba528d.zip",
+      "templateId": "online-enhance-template-id14451"
+    }
+  }
+}

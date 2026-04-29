@@ -1,0 +1,63 @@
+{
+  "WebPage": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Create Your Dream Princess with the AI Princess Generator",
+    "description": "Transform your selfies or text prompts into magical princess characters effortlessly using cutting-edge AI technology."
+  },
+  "FAQPage": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Q1: Is it free to use the AI Princess Generator?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, our AI Princess Generator is completely free to use, with no hidden charges."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Q2: Can I create multiple princess styles?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Absolutely! You can experiment with different styles and create as many designs as you wish."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Q3: What are the file formats for downloading the generated images?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can download your creations in popular formats such as JPEG and PNG for convenience."
+        }
+      }
+    ]
+  },
+  "HowTo": {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "ai princess generator: How It Works",
+    "step": [
+      {
+        "@type": "HowToStep",
+        "position": 1,
+        "name": "Upload Your Photo",
+        "text": "Begin your magical journey by uploading a photo of yourself or use one of our templates."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 2,
+        "name": "Choose a Princess Style",
+        "text": "Select from a variety of styles including Disney-inspired, anime, and more to suit your fantasy."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 3,
+        "name": "Customize Your Fairy Tale",
+        "text": "Use our text prompts to add unique elements and create a story that's all your own."
+      }
+    ]
+  }
+}

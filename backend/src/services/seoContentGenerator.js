@@ -1,4 +1,4 @@
-import { fetch } from 'undici';
+import { fetch, getGlobalDispatcher } from 'undici';
 import fs from 'fs';
 import path from 'path';
 import { callLLM } from './llmClient.js';
@@ -32,7 +32,7 @@ export async function runStep1(projectId) {
         if (!apiKey) throw new Error('SERPAPI_KEY is missing');
 
         const searchUrl = `https://serpapi.com/search.json?q=${encodeURIComponent(keyword)}&api_key=${apiKey}&engine=google&num=10`;
-        const response = await fetch(searchUrl);
+        const response = await fetch(searchUrl, { dispatcher: getGlobalDispatcher() });
         if (!response.ok) throw new Error('SerpAPI error');
 
         const data = await response.json();
@@ -105,7 +105,14 @@ Strictly output ONLY a JSON object (no markdown formatting, no code blocks) with
 
         return { mdFilename, templateId };
     } catch (error) {
-        seoLandingService.updateProjectStatus(projectId, 'step1', { status: 'failed', stepData: { error: error.message } });
-        throw error;
+        console.error('runStep1 failed:', error);
+        let errorMsg = error.message;
+        if (error.cause && error.cause.code === 'UND_ERR_CONNECT_TIMEOUT') {
+            errorMsg = `Connection Timeout. Please check your proxy settings in .env! Detail: ${error.message}`;
+        } else if (errorMsg === 'fetch failed') {
+            errorMsg = `Network request failed (fetch failed). If you are in China, you MUST configure HTTP_PROXY/HTTPS_PROXY in .env and restart the server!`;
+        }
+        seoLandingService.updateProjectStatus(projectId, 'step1', { status: 'failed', stepData: { error: errorMsg } });
+        throw new Error(errorMsg);
     }
 }

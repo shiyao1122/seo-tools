@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Q1: Is it free to use the AI Princess Generator?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our AI Princess Generator is completely free to use, with no hidden charges."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q2: Can I create multiple princess styles?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely! You can experiment with different styles and create as many designs as you wish."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q3: What are the file formats for downloading the generated images?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can download your creations in popular formats such as JPEG and PNG for convenience."
+      }
+    }
+  ]
+}

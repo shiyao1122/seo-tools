@@ -1,0 +1,561 @@
+[
+  {
+    "name": "Video Enhancer",
+    "url": "https://online.hitpaw.com/online-video-enhancer.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/online-video-enhancer.png",
+    "imgAlt": "Online Video Enhancer",
+    "type": "main"
+  },
+  {
+    "name": "Video Watermark Remover",
+    "url": "https://online.hitpaw.com/watermark-remover-online.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/online-video-watermark-remover.png",
+    "imgAlt": "Online Video Watermark Remover",
+    "type": "main",
+    "desc": "Free AI Video Watermark Remover to remove watermark from video online in one click. Erase text, stamps, stickers, and objects with clean HD results."
+  },
+  {
+    "name": "Video to GIF",
+    "url": "https://online.hitpaw.com/video-to-gif-online.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/video-to-gif-online.png",
+    "imgAlt": "Video to GIF",
+    "type": "main",
+    "desc": "HitPaw online video editor here to help convert video to GIF super quick and extremely easy."
+  },
+  {
+    "name": "Mute Video",
+    "url": "https://online.hitpaw.com/online-mute-video.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/mute-video-online.png",
+    "imgAlt": "Mute Video Online",
+    "type": "main",
+    "desc": "HitPaw Mute Video Online helps users fast and easy to remove audio from your video, you can edit the video after mute."
+  },
+  {
+    "name": "Remove Text without Blur",
+    "url": "https://online.hitpaw.com/remove-text-without-blur.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/video-text-remover-1.png",
+    "imgAlt": "Remove Text without Blur Online",
+    "type": "main",
+    "desc": "Remove text from video online free with HitPaw AI. No sign-up required—erase unwanted text instantly without blur and keep your video looking professional."
+  },
+  {
+    "name": "Video Upscaler",
+    "url": "https://online.hitpaw.com/online-video-upscaler.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/online-video-upscaler.png",
+    "imgAlt": "Online Video Upscaler",
+    "type": "main",
+    "desc": "HitPaw online AI video upscaler is the best way to upscale video resolution up to 8K. With the state-of-the-art technologies, it can sharpen your videos in a blink!"
+  },
+  {
+    "name": "Video Translator",
+    "url": "https://online.hitpaw.com/video-translator.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/video-translator.png",
+    "imgAlt": "Online Video Translator",
+    "type": "main",
+    "desc": "Use HitPaw Online AI Video Translator to effortlessly translate videos into 95 languages online, helping you reach global audiences instantly."
+  },
+  {
+    "name": "Video Converter",
+    "url": "https://online.hitpaw.com/online-video-converter.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/online-video-converter-1.png",
+    "imgAlt": "Convert Video Online",
+    "type": "main",
+    "desc": "HitPaw Online Video Converter helps to convert videos to different formats, including MP4, MOV, WEBM. MKV, OGV, AVI, MXF, WMV, TS, ASF, MPG, MPEG, FLV, F4V, SWF."
+  },
+  {
+    "name": "Discord Video Compressor",
+    "url": "https://online.hitpaw.com/discord-video-compressor.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/discord-video-compressor.png",
+    "imgAlt": "Discord Compressor Online",
+    "type": "main",
+    "desc": "HitPaw Online Video Compressor allows you to compress video sizes under 8MB with no quality loss. It helps users to reduce video file size online without losing quality, and you can change the setting of the video."
+  },
+  {
+    "name": "Video Compressor",
+    "url": "https://online.hitpaw.com/online-video-compressor.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/online-video-compressor.png",
+    "imgAlt": "Compress Video Online",
+    "type": "main",
+    "desc": "Free online video compressor to reduce video file size fast. Compress MP4, MOV, AVI and more by up to 80% while maintaining high quality with secure processing."
+  },
+  {
+    "name": "Video Cutter",
+    "url": "https://online.hitpaw.com/cut-video-online.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/online-video-cutter.png",
+    "imgAlt": "Cut Video Online",
+    "type": "main",
+    "desc": "HitPaw online video cutter here to help cut and trim videos into small clips easily and quickly."
+  },
+  {
+    "name": "Video Speed Changer",
+    "url": "https://online.hitpaw.com/change-video-speed-online.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/video-speed-changer.png",
+    "imgAlt": "Change Video Speed Online",
+    "type": "main",
+    "desc": "HitPaw online video editor here to help speed up or slow down your video as you want."
+  },
+  {
+    "name": "Video Merger",
+    "url": "https://online.hitpaw.com/merge-video-online.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/online-video-merger.png",
+    "imgAlt": "Merge Video Online",
+    "type": "main",
+    "desc": "HitPaw online video editor here to help merge video online in simple steps."
+  },
+  {
+    "name": "Add Watermark to Video",
+    "url": "https://online.hitpaw.com/watermark-video-online.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/add-watermark-video-online.png",
+    "imgAlt": "Add Watermark to Video",
+    "type": "main",
+    "desc": "HitPaw online video editor here to help add watermark to video in easy steps. You can mark videos with text and images."
+  },
+  {
+    "name": "Reverse Video",
+    "url": "https://online.hitpaw.com/reverse-video-online.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/reverse-video-online.png",
+    "imgAlt": "Reverse Video Online",
+    "type": "main",
+    "desc": "HitPaw Online Reverse Video helps you to create a rewind effect video or mute sound that looks like a magic trick."
+  },
+  {
+    "name": "Loop Video",
+    "url": "https://online.hitpaw.com/loop-video-online.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/loop-video-online.png",
+    "imgAlt": "Loop Video Online",
+    "type": "main",
+    "desc": "HitPaw loop video online creates and repeats a fun video that is doubled.  Here HitPaw will show you how to loop a video online for free without a watermark."
+  },
+  {
+    "name": "Crop & Rotate Video",
+    "url": "https://online.hitpaw.com/crop-and-rotate-video-online.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/crop-rotate-video-online.png",
+    "imgAlt": "Crop & Rotate Video Online",
+    "type": "main",
+    "desc": "HitPaw online video editor here to help crop and rotate video completely free and quick."
+  },
+  {
+    "name": "Add Subtitle to Video",
+    "url": "https://online.hitpaw.com/add-subtitle-to-video-online.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/add-subtitle-video-online.png",
+    "imgAlt": "Add Subtitle to Video Online",
+    "type": "main",
+    "desc": "HitPaw online video editor here to help add subtitle to video in just a few clicks and completely free."
+  },
+  {
+    "name": "Resize Video",
+    "url": "https://online.hitpaw.com/resize-video-online.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/resize-video-online.png",
+    "imgAlt": "Resize Video Online",
+    "type": "main",
+    "desc": "HitPaw online video editor here to help resize video to match YouTube, Instagram, TikTok and more."
+  },
+  {
+    "name": "Add Music to Video",
+    "url": "https://online.hitpaw.com/add-music-to-video-online.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/add-music-to-video-online.png",
+    "imgAlt": "Add Music to Video",
+    "type": "main",
+    "desc": "HitPaw online video editor here to help add music to where you want easily and quickly."
+  },
+  {
+    "name": "Photo Enhancer",
+    "url": "https://online.hitpaw.com/online-photo-enhancer.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/online-photo-enhancer.png",
+    "imgAlt": "Online Photo Enhancer",
+    "type": "main",
+    "desc": "Unblur and upscale images up to 8X losslessly with HitPaw AI. Enhance photos to 8K/16K clarity online for free. Fix blurry pictures without losing quality now!"
+  },
+  {
+    "name": "Image Watermark Remover",
+    "url": "https://online.hitpaw.com/photo-watermark-remover.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/image-watermark-remover.png",
+    "imgAlt": "Online Image Watermark Remover",
+    "type": "main",
+    "desc": "Powered by AI, HitPaw Online Image Watermark Remover free can effectively and accurately remove any watermark from images online for free."
+  },
+  {
+    "name": "Remove Object from Photo",
+    "url": "https://online.hitpaw.com/remove-object-from-photo.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/photo-object-remover.png",
+    "imgAlt": "Photo Object Remover Online",
+    "type": "main",
+    "desc": "HitPaw Online Object Remover, the best AI-based online photo object remover, can effectively and precisely remove object from images."
+  },
+  {
+    "name": "Unblur Image Portrait",
+    "url": "https://online.hitpaw.com/unblur-image.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/unblur-image-online.png",
+    "imgAlt": "Unblur Image Online",
+    "type": "main",
+    "desc": "Unblur images online for free with HitPaw Online Photo Enhancer. Instantly fix blurry photos and enhance image quality in one click. Try it now for free!"
+  },
+  {
+    "name": "Image Upscaler",
+    "url": "https://online.hitpaw.com/image-upscaler.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/image-upscaler.png",
+    "imgAlt": "Upscale Image Online",
+    "type": "main",
+    "desc": "Upscale your image for free with HitPaw Online AI Image Upscaler! Enhance resolution and details instantly without losing quality—upload and enhance in seconds."
+  },
+  {
+    "name": "Retouch Photo",
+    "url": "https://online.hitpaw.com/photo-retouching.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/retouch-photo-online.png",
+    "imgAlt": "Retouch Photo Online",
+    "type": "main",
+    "desc": "We provide the best photo retouching service to retouch anything unwanted from images, with no hurt to images."
+  },
+  {
+    "name": "Image Converter",
+    "url": "https://online.hitpaw.com/online-image-converter.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/online-image-converter.png",
+    "imgAlt": "Convert Image Online",
+    "type": "main",
+    "desc": "HitPaw Online Image Converter helps convert images for free, it supports convert from GIF, JPG, JPEG, PNG, BMP, TIFF, WEBP, ICO to each other."
+  },
+  {
+    "name": "Background Remover",
+    "url": "https://online.hitpaw.com/online-background-remover.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/online-background-remover.png",
+    "imgAlt": "Remove Image Background Online",
+    "type": "main",
+    "desc": "HitPaw Online Background Remover helps you easily remove background from images. It can automatically adjust or resize or scale your HD quality photos with AI."
+  },
+  {
+    "name": "Background Changer",
+    "url": "https://online.hitpaw.com/photo-background-changer.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/photo-background-changer.png",
+    "imgAlt": "Change Image Background",
+    "type": "main",
+    "desc": "HitPaw Online Background Changer can help you change or customize the background of your images. 100% automatically and safe!"
+  },
+  {
+    "name": "Restore Old Photo",
+    "url": "https://online.hitpaw.com/restore-old-photos.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/restore-old-photo.png",
+    "imgAlt": "Restore Old Photo",
+    "type": "main",
+    "desc": "HitPaw Online offers free AI photo restoration to repair scratches, enhance details, and restore old images, bringing your memories back to life effortlessly."
+  },
+  {
+    "name": "Passport Photo Maker",
+    "url": "https://online.hitpaw.com/passport-photo-maker.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/passport-photo-maker.png",
+    "imgAlt": "Passport Photo Maker",
+    "type": "main",
+    "desc": "Effortlessly create passport and ID photos with HitPaw Online Passport Photo Maker! Crop, edit, and customize to meet requirements, all for free and online."
+  },
+  {
+    "name": "Animate Old Photo",
+    "url": "https://online.hitpaw.com/animate-old-photos-online.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/animate-old-photos-online.png",
+    "imgAlt": "Animate Old Photo Online",
+    "type": "main",
+    "desc": "Use HitPaw Animate Old Photos Online to animate faces in old pictures with AI. Bring memories to life instantly—no download required, 100% free and easy to use."
+  },
+  {
+    "name": "Face Animator",
+    "url": "https://online.hitpaw.com/online-face-animator.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/online-face-animator.png",
+    "imgAlt": "Face Animator",
+    "type": "main",
+    "desc": "Use HitPaw Online Face Animator to turn any face into fun animated videos or GIFs—fast, simple, and beginner-friendly, with no complex skills required."
+  },
+  {
+    "name": "Avatar Animator",
+    "url": "https://online.hitpaw.com/avatar-animator.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/avatar-animator.png",
+    "imgAlt": "Avatar Animator",
+    "type": "main",
+    "desc": "Use HitPaw Online Avatar Animator to bring your characters to life, easier than Adobe Character Animator and many other AI animators."
+  },
+  {
+    "name": "AI Dance Generator",
+    "url": "https://online.hitpaw.com/ai-dance-generator.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/ai-dance-generator.png",
+    "imgAlt": "Generate AI Dance",
+    "type": "main",
+    "desc": "HitPaw Online Photo Dancer is an AI dance generator free tool that brings images to life. Create smooth animations with photo dance AI free technology."
+  },
+  {
+    "name": "QR Code Art",
+    "url": "https://online.hitpaw.com/qr-code-art-generator.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/qr-code-art-generator.png",
+    "imgAlt": "Generate QR Code",
+    "type": "main",
+    "desc": "With advanced AI technology, you can generate QR code art without the need for coding or programming in HitPaw Online. Generate stylish QR code art for branding, marketing, or aesthetic purposes now."
+  },
+  {
+    "name": "Audio Enhancer",
+    "url": "https://online.hitpaw.com/online-audio-enhancer.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/online-audio-enhancer.png",
+    "imgAlt": "Online Audio Enhancer",
+    "type": "main",
+    "desc": "Enhance your audio online with HitPaw AI Audio Enhancer for free. Remove noise, improve vocals, and boost audio quality for podcasts, videos, music tracks."
+  },
+  {
+    "name": "Vocal Remover",
+    "url": "https://online.hitpaw.com/vocal-remover.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/online-vocal-remover.png",
+    "imgAlt": "Online Vocal Remover",
+    "type": "main",
+    "desc": "Remove vocals by separating instrumental tracks from music. Experience HitPaw Online AI Vocal Remover and help you produce backing tracks or accapella easily!"
+  },
+  {
+    "name": "Audio Converter",
+    "url": "https://online.hitpaw.com/online-audio-converter.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/online-audio-converter.png",
+    "imgAlt": "Online Audio Converter",
+    "type": "main",
+    "desc": "HitPaw Online Audio Converter helps convert audios completely free, you can use it convert audios from wav, mp3, m4a, aac, webm, flac, mp4, mov to each other."
+  },
+  {
+    "name": "Audio Speed Changer",
+    "url": "https://online.hitpaw.com/online-audio-speed-changer.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/online-audio-speed-changer.png",
+    "imgAlt": "Change Audio Speed",
+    "type": "main",
+    "desc": "HitPaw Online Audio Speed Changer helps users change audio speed from x0.5 to x3, check this page and try it completely free."
+  },
+  {
+    "name": "Audio Cutter",
+    "url": "https://online.hitpaw.com/online-audio-cutter.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/online-audio-cutter.png",
+    "imgAlt": "Cut Audio Online",
+    "type": "main",
+    "desc": "HitPaw Online Audio Cutter helps trim audio to any length you need, check this page and start to try it completely free!"
+  },
+  {
+    "name": "Audio Joiner",
+    "url": "https://online.hitpaw.com/online-audio-joiner.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/online-audio-joiner.png",
+    "imgAlt": "Combine Audio Online",
+    "type": "main",
+    "desc": "HitPaw Online Audio Joiner helps users merge several different audio tracks into one file, you can cut all the audios easily and preview them while editing."
+  },
+  {
+    "name": "Audio Compressor",
+    "url": "https://online.hitpaw.com/online-audio-compressor.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/online-audio-compressor.png",
+    "imgAlt": "Compress Audio Online",
+    "type": "main",
+    "desc": "HitPaw Online Audio Compressor helps reduce audio resize without losing any quality, check this page and try to use this online tool right away!"
+  },
+  {
+    "name": "Audio Extractor",
+    "url": "https://online.hitpaw.com/online-audio-extractor.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/online-audio-extractor.png",
+    "imgAlt": "Extract Auido from Video Online",
+    "type": "main",
+    "desc": "HitPaw Online Audio Extractor helps extract audio from video easily, all you need to do are 3 steps: upload, select format, and then extract."
+  },
+  {
+    "name": "Audio Volume Changer",
+    "url": "https://online.hitpaw.com/online-volume-changer.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/online-audio-volume-changer.png",
+    "imgAlt": "Change Audio Volume",
+    "type": "main",
+    "desc": "HitPaw Online Audio Volume Changer helps users change audio volume easily, drag and drop to upload your audio, then adjust the volume from 0 to 300%."
+  },
+  {
+    "name": "Add Music to Audio",
+    "url": "https://online.hitpaw.com/add-music-to-audio-online.html",
+    "imgUrl": "https://online.hitpaw.com/images/tool/add-music-to-audio.png",
+    "imgAlt": "Add Music to Audio Online",
+    "type": "main",
+    "desc": "HitPaw Add Music to Audio Online helps users add background music to audios, you can customize the length of the music and also preview it before exporting."
+  },
+  {
+    "name": "English to Urdu Video Translator",
+    "url": "https://online.hitpaw.com/english-to-urdu.html",
+    "imgUrl": "https://www.hitpaw.com/logo.ico",
+    "imgAlt": "",
+    "type": "explore",
+    "desc": "Instantly translate English to Urdu from video in HitPaw Online AI Video Translator, making your videos accessible to all audiences."
+  },
+  {
+    "name": "English to Cantonese Video Translator",
+    "url": "https://online.hitpaw.com/english-to-cantonese.html",
+    "imgUrl": "https://www.hitpaw.com/logo.ico",
+    "imgAlt": "",
+    "type": "explore",
+    "desc": "Instantly translate English to Cantonese from video in HitPaw Online AI Video Translator, making your videos accessible to all audiences."
+  },
+  {
+    "name": "English to Hindi Video Translator",
+    "url": "https://online.hitpaw.com/english-to-hindi.html",
+    "imgUrl": "https://www.hitpaw.com/logo.ico",
+    "imgAlt": "",
+    "type": "explore",
+    "desc": "Instantly translate English to Hindi from video in HitPaw Online AI Video Translator, making your videos accessible to all audiences."
+  },
+  {
+    "name": "English to Somali Video Translator",
+    "url": "https://online.hitpaw.com/english-to-somali.html",
+    "imgUrl": "https://www.hitpaw.com/logo.ico",
+    "imgAlt": "",
+    "type": "explore",
+    "desc": "Instantly translate English to Somali from video in HitPaw Online AI Video Translator, making your videos accessible to all audiences."
+  },
+  {
+    "name": "English to Portuguese Video Translator",
+    "url": "https://online.hitpaw.com/english-to-portuguese.html",
+    "imgUrl": "https://www.hitpaw.com/logo.ico",
+    "imgAlt": "",
+    "type": "explore",
+    "desc": "Instantly translate English to Portuguese from video in HitPaw Online AI Video Translator, making your videos accessible to all audiences."
+  },
+  {
+    "name": "English to Bangla Video Translator",
+    "url": "https://online.hitpaw.com/english-to-bangla.html",
+    "imgUrl": "https://www.hitpaw.com/logo.ico",
+    "imgAlt": "",
+    "type": "explore",
+    "desc": "Instantly translate English to Bangla from video in HitPaw Online AI Video Translator, making your videos accessible to all audiences."
+  },
+  {
+    "name": "English to Spanish Video Translator",
+    "url": "https://online.hitpaw.com/english-to-spanish.html",
+    "imgUrl": "https://www.hitpaw.com/logo.ico",
+    "imgAlt": "",
+    "type": "explore",
+    "desc": "Instantly translate English to Spanish from video in HitPaw Online AI Video Translator, making your videos access to all audience."
+  },
+  {
+    "name": "English to French Video Translator",
+    "url": "https://online.hitpaw.com/english-to-french.html",
+    "imgUrl": "https://www.hitpaw.com/logo.ico",
+    "imgAlt": "",
+    "type": "explore",
+    "desc": "Instantly translate English to French from video in HitPaw Online AI Video Translator, making your videos accessible to all audiences."
+  },
+  {
+    "name": "English to German Video Translator",
+    "url": "https://online.hitpaw.com/english-to-german.html",
+    "imgUrl": "https://www.hitpaw.com/logo.ico",
+    "imgAlt": "",
+    "type": "explore",
+    "desc": "Instantly translate English to German from video in HitPaw Online AI Video Translator, making your videos accessible to all audiences."
+  },
+  {
+    "name": "English to Tamil Video Translator",
+    "url": "https://online.hitpaw.com/english-to-tamil.html",
+    "imgUrl": "https://www.hitpaw.com/logo.ico",
+    "imgAlt": "",
+    "type": "explore",
+    "desc": "Instantly translate English to Tamil from video in HitPaw Online AI Video Translator, making your videos accessible to all audiences."
+  },
+  {
+    "name": "English to Persian Video Translator",
+    "url": "https://online.hitpaw.com/english-to-persian.html",
+    "imgUrl": "https://www.hitpaw.com/logo.ico",
+    "imgAlt": "",
+    "type": "explore",
+    "desc": "Instantly translate English to Persian from video in HitPaw Online AI Video Translator, making your videos accessible to all audiences."
+  },
+  {
+    "name": "English to Italian Video Translator",
+    "url": "https://online.hitpaw.com/english-to-italian.html",
+    "imgUrl": "https://www.hitpaw.com/logo.ico",
+    "imgAlt": "",
+    "type": "explore",
+    "desc": "Instantly translate English to Italian from video in HitPaw Online AI Video Translator, making your videos accessible to all audiences."
+  },
+  {
+    "name": "Japanese to English Video Translator",
+    "url": "https://online.hitpaw.com/japanese-to-english.html",
+    "imgUrl": "https://www.hitpaw.com/logo.ico",
+    "imgAlt": "",
+    "type": "explore",
+    "desc": "Instantly translate Japanese to English from video in HitPaw Online AI Video Translator, making your videos accessible to all audiences."
+  },
+  {
+    "name": "Spanish to English Video Translator",
+    "url": "https://online.hitpaw.com/spanish-to-english.html",
+    "imgUrl": "https://www.hitpaw.com/logo.ico",
+    "imgAlt": "",
+    "type": "explore",
+    "desc": "Instantly translate Spanish to English from video in HitPaw Online AI Video Translator, making your videos accessible to all audiences."
+  },
+  {
+    "name": "Portuguese to English Video Translator",
+    "url": "https://online.hitpaw.com/portuguese-to-english.html",
+    "imgUrl": "https://www.hitpaw.com/logo.ico",
+    "imgAlt": "",
+    "type": "explore",
+    "desc": "Instantly translate Portuguese to English from video in HitPaw Online AI Video Translator, making your videos accessible to all audiences."
+  },
+  {
+    "name": "Dutch to English Video Translator",
+    "url": "https://online.hitpaw.com/dutch-to-english.html",
+    "imgUrl": "https://www.hitpaw.com/logo.ico",
+    "imgAlt": "",
+    "type": "explore",
+    "desc": "Instantly translate Dutch to English from video in HitPaw Online AI Video Translator, making your videos accessible to all audiences."
+  },
+  {
+    "name": "Italian to English Video Translator",
+    "url": "https://online.hitpaw.com/italian-to-english.html",
+    "imgUrl": "https://www.hitpaw.com/logo.ico",
+    "imgAlt": "",
+    "type": "explore",
+    "desc": "Instantly translate Italian to English from video in HitPaw Online AI Video Translator, making your videos accessible to all audiences."
+  },
+  {
+    "name": "French to English Video Translator",
+    "url": "https://online.hitpaw.com/french-to-english.html",
+    "imgUrl": "https://www.hitpaw.com/logo.ico",
+    "imgAlt": "",
+    "type": "explore",
+    "desc": "Instantly translate French to English from video in HitPaw Online AI Video Translator, making your videos accessible to all audiences."
+  },
+  {
+    "name": "Somali to English Video Translator",
+    "url": "https://online.hitpaw.com/somali-to-english.html",
+    "imgUrl": "https://www.hitpaw.com/logo.ico",
+    "imgAlt": "",
+    "type": "explore",
+    "desc": "Instantly translate Somali to English from video in HitPaw Online AI Video Translator, making your videos accessible to all audiences."
+  },
+  {
+    "name": "English to Japanese Video Translator",
+    "url": "https://online.hitpaw.com/english-to-japanese.html",
+    "imgUrl": "https://www.hitpaw.com/logo.ico",
+    "imgAlt": "",
+    "type": "explore",
+    "desc": "Instantly translate English to Japanese from video in HitPaw Online AI Video Translator, making your videos accessible to all audiences."
+  },
+  {
+    "name": "Portuguese to Japanese Video Translator",
+    "url": "https://online.hitpaw.com/portuguese-to-japanese.html",
+    "imgUrl": "https://www.hitpaw.com/logo.ico",
+    "imgAlt": "",
+    "type": "explore",
+    "desc": "Instantly translate Portuguese to Japanese from video in HitPaw Online AI Video Translator, making your videos accessible to all audiences."
+  },
+  {
+    "name": "AI Video Generator",
+    "url": "https://online.hitpaw.com/free-ai-video-generator.html",
+    "imgUrl": "https://www.hitpaw.com/logo.ico",
+    "imgAlt": "",
+    "type": "explore",
+    "desc": "Free HitPaw Online AI Video Generator - Turn text/images into videos with AI effects in Seconds! No watermark, no signup, and no download. Try Now Free!"
+  },
+  {
+    "name": "Photo Animator",
+    "url": "https://online.hitpaw.com/photo-animator.html",
+    "imgUrl": "https://www.hitpaw.com/logo.ico",
+    "imgAlt": "",
+    "type": "explore",
+    "desc": "Animate photos online effortlessly with HitPaw Online AI Photo Animator. Transform faces into lively characters and enhance your projects with our intuitive picture animation tool."
+  },
+  {
+    "name": "Background Generator",
+    "url": "https://online.hitpaw.com/ai-background-generator.html",
+    "imgUrl": "https://www.hitpaw.com/logo.ico",
+    "imgAlt": "",
+    "type": "explore",
+    "desc": "You can generate or replace backgrounds with HitPaw AI background generator. Time to create better visuals for selfies, e-commerce, and social media in a sec!"
+  }
+]

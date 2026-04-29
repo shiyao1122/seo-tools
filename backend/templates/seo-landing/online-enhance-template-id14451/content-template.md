@@ -37,7 +37,7 @@
 
 {{use_cases_markdown}}
 
-## More Tools 更多工具推荐
+## More Tools 更多工具推荐![1777451789483](image/content-template/1777451789483.png)![1777451814073](image/content-template/1777451814073.png)
 
 - **Section H2 标题**：Explore More AI Video Effects
 
