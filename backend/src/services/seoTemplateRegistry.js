@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { loadToolsDb } from './toolsDbService.js';
 
 export const DEFAULT_TEMPLATE_ID = 'online-enhance-template-id14451';
 
@@ -107,12 +108,7 @@ export function renderMarkdown(templateId, brief = {}, context = {}) {
     const keyword = context.keyword || '';
     const ctaPrimary = context.ctaPrimaryHref || defaults.ctaPrimaryHref || '#';
 
-    const tools = context.tools || [
-        { name: 'AI Video Enhancer', url: 'https://online.hitpaw.com/online-video-enhancer.html' },
-        { name: 'AI Cartoon Video', url: 'https://online.hitpaw.com/ai-cartoon-video.html' },
-        { name: 'AI Photo Enhancer', url: 'https://online.hitpaw.com/ai-photo-enhancer.html' },
-        { name: 'Online Video Effects', url: 'https://online.hitpaw.com/online-video-effects.html' }
-    ];
+    const tools = context.tools || loadToolsDb();
 
     const vars = {
         keyword,
@@ -180,8 +176,8 @@ export function renderMarkdown(templateId, brief = {}, context = {}) {
                 index: index + 1,
                 title: tool.name || tool.title || `Tool ${index + 1}`,
                 description: tool.description || tool.desc || 'Create stunning AI-powered content.',
-                image_url: `https://www.hitpaw.com/images/icon-${index + 1}.png`,
-                image_alt: tool.name || tool.title || `Tool ${index + 1}`,
+                image_url: tool.imgUrl || tool.image_url || `https://www.hitpaw.com/images/icon-${index + 1}.png`,
+                image_alt: tool.imgAlt || tool.image_alt || tool.name || tool.title || `Tool ${index + 1}`,
                 link_href: tool.url || tool.link_href || '#'
             })
         ),

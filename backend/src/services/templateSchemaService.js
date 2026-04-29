@@ -1,8 +1,10 @@
 import fs from 'fs';
 import path from 'path';
+import { fetch } from 'undici';
 import mammoth from 'mammoth';
 import { config } from '../config.js';
 import { getSettings } from './settingsService.js';
+import { ensureProxyDispatcher } from '../proxy.js';
 
 const GEMINI_MODEL = 'gemini-3.1-flash-lite-preview';
 
@@ -206,6 +208,7 @@ async function readImportedFile(filePath, originalName) {
 }
 
 async function callGeminiToFillSchema(sourceText, schema, templateText) {
+  const dispatcher = ensureProxyDispatcher();
   const settings = getSettings();
   const apiKey = settings.geminiApiKey || config.geminiApiKey;
 
@@ -250,7 +253,8 @@ async function callGeminiToFillSchema(sourceText, schema, templateText) {
           temperature: 0.1,
           responseMimeType: 'application/json'
         }
-      })
+      }),
+      dispatcher
     });
   } catch (error) {
     const causeCode = error?.cause?.code || '';

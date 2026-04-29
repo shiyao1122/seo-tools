@@ -1,20 +1,14 @@
 import fs from 'fs';
 import path from 'path';
-import { fetch, getGlobalDispatcher, ProxyAgent, setGlobalDispatcher } from 'undici';
+import { fetch, getGlobalDispatcher } from 'undici';
 import * as cheerio from 'cheerio';
-import dotenv from 'dotenv';
 import { fileURLToPath } from 'url';
+import { ensureProxyDispatcher } from '../src/proxy.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, '..');
-
-dotenv.config({ path: path.join(rootDir, '.env') });
-
-const proxyUrl = process.env.HTTPS_PROXY || process.env.HTTP_PROXY;
-if (proxyUrl) {
-    setGlobalDispatcher(new ProxyAgent(proxyUrl));
-}
+ensureProxyDispatcher();
 
 async function buildDb() {
     const htmlPath = path.resolve(rootDir, '..', 'seo-skills-package', 'tools.html');

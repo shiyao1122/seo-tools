@@ -1,9 +1,9 @@
 import express from 'express';
 import cors from 'cors';
 import fs from 'fs';
-import { ProxyAgent, setGlobalDispatcher } from 'undici';
 import packageInfo from '../package.json' with { type: 'json' };
 import { config } from './config.js';
+import { ensureProxyDispatcher } from './proxy.js';
 import authRoutes from './routes/authRoutes.js';
 import settingsRoutes from './routes/settingsRoutes.js';
 import taskRoutes from './routes/taskRoutes.js';
@@ -17,23 +17,11 @@ import { ensureAdminUser } from './services/authService.js';
 ensureDir(config.uploadsDir);
 ensureDir(config.processedDir);
 ensureAdminUser();
+ensureProxyDispatcher();
 
 const recoveredTaskCount = recoverInterruptedTasks();
 if (recoveredTaskCount > 0) {
   console.warn(`Recovered ${recoveredTaskCount} interrupted task(s) after backend restart.`);
-}
-
-const proxyUrl = config.httpsProxy || config.httpProxy;
-if (proxyUrl) {
-  process.env.HTTPS_PROXY = process.env.HTTPS_PROXY || process.env.https_proxy || proxyUrl;
-  process.env.HTTP_PROXY = process.env.HTTP_PROXY || process.env.http_proxy || proxyUrl;
-  if (config.noProxy) {
-    process.env.NO_PROXY = process.env.NO_PROXY || process.env.no_proxy || config.noProxy;
-  }
-  setGlobalDispatcher(new ProxyAgent(proxyUrl));
-  console.log(`Proxy enabled for outbound requests: ${proxyUrl}`);
-} else {
-  console.warn('No HTTP/HTTPS proxy configured. Google APIs may be unreachable from this server.');
 }
 
 const app = express();

@@ -2,6 +2,10 @@ import fs from 'fs';
 import path from 'path';
 import { fetch, getGlobalDispatcher } from 'undici';
 import * as seoLandingService from './seoLandingService.js';
+import { ensureProxyDispatcher } from '../proxy.js';
+import { config } from '../config.js';
+
+ensureProxyDispatcher();
 
 async function generateImageOpenAI(prompt, apiKey) {
     const url = 'https://api.openai.com/v1/images/generations';
@@ -39,7 +43,7 @@ export async function runStep3(projectId) {
     }
 
     const promptsData = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
-    const apiKey = process.env.OPENAI_API_KEY;
+    const apiKey = config.openaiApiKey;
     if (!apiKey) {
         throw new Error('OPENAI_API_KEY is missing. Currently using OpenAI for DALL-E 3 image generation.');
     }

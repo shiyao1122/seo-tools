@@ -1,7 +1,11 @@
 import { fetch, getGlobalDispatcher } from 'undici';
+import { ensureProxyDispatcher } from '../proxy.js';
+import { config } from '../config.js';
+
+ensureProxyDispatcher();
 
 export async function callLLM(prompt, options = {}) {
-    const provider = options.provider || process.env.DEFAULT_LLM_PROVIDER || 'gemini';
+    const provider = options.provider || config.defaultLlmProvider || 'gemini';
     const maxTokens = options.maxTokens || 8192;
 
     if (provider === 'gemini') {
@@ -16,10 +20,10 @@ export async function callLLM(prompt, options = {}) {
 }
 
 async function _callGemini(prompt, maxTokens) {
-    const apiKey = process.env.GEMINI_API_KEY;
+    const apiKey = config.geminiApiKey;
     if (!apiKey) throw new Error('GEMINI_API_KEY is missing');
 
-    const model = process.env.DEFAULT_LLM_MODEL || 'gemini-2.5-flash';
+    const model = config.defaultLlmModel || 'gemini-2.5-flash';
     const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
 
     const payload = {
@@ -48,12 +52,12 @@ async function _callGemini(prompt, maxTokens) {
 }
 
 async function _callOpenAI(prompt, maxTokens) {
-    const apiKey = process.env.OPENAI_API_KEY;
+    const apiKey = config.openaiApiKey;
     if (!apiKey) throw new Error('OPENAI_API_KEY is missing');
 
     const url = 'https://api.openai.com/v1/chat/completions';
     const payload = {
-        model: process.env.DEFAULT_LLM_MODEL || 'gpt-4o',
+        model: config.defaultLlmModel || 'gpt-4o',
         max_tokens: maxTokens,
         messages: [{ role: 'user', content: prompt }]
     };
@@ -82,12 +86,12 @@ async function _callOpenAI(prompt, maxTokens) {
 }
 
 async function _callMiniMax(prompt, maxTokens) {
-    const apiKey = process.env.MINIMAX_API_KEY;
+    const apiKey = config.minimaxApiKey;
     if (!apiKey) throw new Error('MINIMAX_API_KEY is missing');
 
     const url = 'https://api.minimaxi.com/anthropic/v1/messages';
     const payload = {
-        model: process.env.DEFAULT_LLM_MODEL || 'MiniMax-M2.7',
+        model: config.defaultLlmModel || 'MiniMax-M2.7',
         max_tokens: maxTokens,
         messages: [{ role: 'user', content: prompt }]
     };

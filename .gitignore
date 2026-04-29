@@ -3,6 +3,10 @@ frontend/node_modules
 frontend/dist
 backend/uploads
 backend/data/db.json
+backend/data/seo-projects/
 backend/.env
 backend/test.xlsx
 seo-skills-package
+**/.env
+**/.env.*
+!**/.env.example
