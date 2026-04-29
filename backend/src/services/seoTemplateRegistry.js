@@ -376,6 +376,13 @@ export function parseMarkdown(templateId, mdText) {
     const tipsBlock = getBlock(mdText, 'Tips');
     const tipFields = extractFields(tipsBlock);
     data.tips = { title: firstField(tipFields, ['Section H2 标题', 'Section H2 鏍囬']) };
+    getSubBlocks(tipsBlock, 'Tip\\s+\\d+').forEach((block, index) => {
+        const fields = extractFields(block);
+        data.tips[`tip_${index + 1}`] = {
+            link_href: firstField(fields, ['文章链接', '鏂囩珷閾炬帴', '链接']),
+            link_text: firstField(fields, ['文章标题', '鏂囩珷鏍囬', '标题'])
+        };
+    });
 
     const bottomBlock = getBlock(mdText, 'Bottom CTA');
     const bottomFields = extractFields(bottomBlock);
