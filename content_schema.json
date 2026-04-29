@@ -1,0 +1,273 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hitpaw.com/schemas/seo-landing-page.json",
+  "title": "HitPaw SEO 落地页内容填充 Schema",
+  "description": "用于生成或填充 HitPaw 落地页的完整内容规范。给 AI 使用时，直接将本文件作为上下文 + Prompt 即可输出符合规范的 JSON。",
+  "version": "1.0.0",
+  "type": "object",
+
+  "definitions": {
+
+    "text_field": {
+      "type": "object",
+      "description": "单行/多行文本字段",
+      "properties": {
+        "value":  { "type": "string", "description": "字段内容" },
+        "notes":  { "type": "string", "description": "可选备注说明" }
+      },
+      "required": ["value"]
+    },
+
+    "url_field": {
+      "type": "object",
+      "description": "链接或图片 URL 字段",
+      "properties": {
+        "value":     { "type": "string", "format": "uri", "description": "完整 URL 地址" },
+        "alt_text":  { "type": "string", "description": "Alt/Title 文案（SEO 用）" },
+        "notes":     { "type": "string", "description": "可选备注说明" }
+      },
+      "required": ["value"]
+    },
+
+    "link_field": {
+      "type": "object",
+      "description": "可点击链接字段",
+      "properties": {
+        "href":  { "type": "string", "format": "uri", "description": "链接地址" },
+        "text":  { "type": "string", "description": "链接显示文案" },
+        "class": { "type": "string", "description": "CSS class（一般不修改）" }
+      },
+      "required": ["href", "text"]
+    },
+
+    "cta_button": {
+      "type": "object",
+      "description": "CTA 按钮（含主副文案）",
+      "properties": {
+        "href":  { "type": "string", "format": "uri", "description": "按钮链接" },
+        "text":  { "type": "string", "description": "按钮第一行主文案" },
+        "sub":   { "type": "string", "description": "按钮第二行副文案（可不填）" },
+        "class": { "type": "string", "description": "CSS class（保持与模板一致）" }
+      },
+      "required": ["href", "text"]
+    },
+
+    "section_title": {
+      "type": "object",
+      "properties": {
+        "value":  { "type": "string", "description": "区域标题文字" },
+        "level":  { "type": "string", "enum": ["h2", "h3"], "default": "h2", "description": "标题层级" }
+      },
+      "required": ["value"]
+    },
+
+    "faq_item": {
+      "type": "object",
+      "description": "一条 FAQ",
+      "properties": {
+        "question": { "type": "string", "description": "问题（含 Q1: 前缀）" },
+        "answer":   { "type": "string", "description": "回答（回答中可包含 <a href='...'>链接文字</a> 标签）" }
+      },
+      "required": ["question", "answer"]
+    },
+
+    "step_item": {
+      "type": "object",
+      "description": "一步操作流程",
+      "properties": {
+        "num":       { "type": "string", "description": "步骤编号（如 01）" },
+        "title":     { "type": "string", "description": "步骤标题" },
+        "desc":      { "type": "string", "description": "步骤描述" },
+        "image_url": { "type": "string", "format": "uri", "description": "步骤截图 URL" },
+        "image_alt": { "type": "string", "description": "步骤图 alt 文案" }
+      },
+      "required": ["num", "title", "desc"]
+    },
+
+    "feature_item": {
+      "type": "object",
+      "description": "一个功能特性",
+      "properties": {
+        "title":     { "type": "string", "description": "Feature 标题" },
+        "desc":      { "type": "string", "description": "Feature 描述文字" },
+        "image_url": { "type": "string", "format": "uri", "description": "Feature 配图 URL" },
+        "image_alt": { "type": "string", "description": "Feature 图 alt 文案" },
+        "link":      { "$ref": "#/definitions/link_field", "description": "可选跳转链接" }
+      },
+      "required": ["title", "desc"]
+    },
+
+    "use_case_item": {
+      "type": "object",
+      "description": "一个适用场景",
+      "properties": {
+        "title":     { "type": "string", "description": "场景标题" },
+        "image_url": { "type": "string", "format": "uri", "description": "场景配图 URL" },
+        "image_alt": { "type": "string", "description": "场景图 alt 文案" }
+      },
+      "required": ["title"]
+    },
+
+    "tool_card": {
+      "type": "object",
+      "description": "工具推荐卡片",
+      "properties": {
+        "title":     { "type": "string", "description": "工具名称" },
+        "desc":      { "type": "string", "description": "工具简短描述" },
+        "image_url": { "type": "string", "format": "uri", "description": "工具卡片图 URL" },
+        "image_alt": { "type": "string", "description": "工具图 alt 文案" },
+        "link_href": { "type": "string", "format": "uri", "description": "工具跳转链接" },
+        "link_text": { "type": "string", "description": "链接文案（一般与 title 相同）" }
+      },
+      "required": ["title", "desc", "link_href"]
+    },
+
+    "tip_item": {
+      "type": "object",
+      "description": "一条使用技巧/推荐文章",
+      "properties": {
+        "link_href":  { "type": "string", "format": "uri", "description": "文章链接" },
+        "link_text":  { "type": "string", "description": "文章标题（带 · 前缀）" },
+        "link_class": { "type": "string", "default": "text-black", "description": "CSS class" }
+      },
+      "required": ["link_href", "link_text"]
+    }
+
+  },
+
+  "properties": {
+
+    "_meta": {
+      "type": "object",
+      "description": "页面元信息（不用填，内容生成后系统补充）",
+      "properties": {
+        "page_name":     { "type": "string", "description": "页面标识名（如 online-enhance-template-id14451）" },
+        "template_version": { "type": "string", "description": "模板版本号" },
+        "generated_at":  { "type": "string", "description": "生成时间" }
+      }
+    },
+
+    "hero": {
+      "type": "object",
+      "title": "Hero 主横幅",
+      "description": "页面顶部主横幅区域，包含主标题、副标题、CTA 按钮和产品图",
+      "properties": {
+        "headline":         { "$ref": "#/definitions/text_field", "description": "H1 主标题" },
+        "subtitle":         { "$ref": "#/definitions/text_field", "description": "副标题段落" },
+        "cta_primary":      { "$ref": "#/definitions/cta_button",  "description": "主 CTA 按钮（桌面端）" },
+        "cta_secondary":    { "$ref": "#/definitions/link_field",  "description": "次 CTA 链接（如 See Pricing）" },
+        "cta_mobile":       { "$ref": "#/definitions/cta_button",  "description": "移动端主 CTA" },
+        "image":            { "$ref": "#/definitions/url_field",   "description": "Hero 右侧产品截图" }
+      },
+      "required": ["headline", "subtitle", "cta_primary", "image"]
+    },
+
+    "steps": {
+      "type": "object",
+      "title": "三步使用流程",
+      "description": "页面中部的操作步骤展示区，通常 3 步",
+      "properties": {
+        "title":      { "$ref": "#/definitions/section_title" },
+        "cta":        { "$ref": "#/definitions/cta_button", "description": "Steps 区底部 CTA" },
+        "step_1":     { "$ref": "#/definitions/step_item" },
+        "step_2":     { "$ref": "#/definitions/step_item" },
+        "step_3":     { "$ref": "#/definitions/step_item" }
+      },
+      "required": ["title", "step_1", "step_2", "step_3"]
+    },
+
+    "features": {
+      "type": "object",
+      "title": "核心功能特性",
+      "description": "工具核心能力展示区（一般 3 个 feature）",
+      "properties": {
+        "title":     { "$ref": "#/definitions/section_title" },
+        "feature_1": { "$ref": "#/definitions/feature_item" },
+        "feature_2": { "$ref": "#/definitions/feature_item" },
+        "feature_3": { "$ref": "#/definitions/feature_item" }
+      },
+      "required": ["title", "feature_1", "feature_2", "feature_3"]
+    },
+
+    "use_cases": {
+      "type": "object",
+      "title": "适用场景",
+      "description": "列举目标用户和使用场景",
+      "properties": {
+        "title":     { "$ref": "#/definitions/section_title" },
+        "desc":      { "$ref": "#/definitions/text_field", "description": "引导段落" },
+        "use_case_1": { "$ref": "#/definitions/use_case_item" },
+        "use_case_2": { "$ref": "#/definitions/use_case_item" },
+        "use_case_3": { "$ref": "#/definitions/use_case_item" },
+        "use_case_4": { "$ref": "#/definitions/use_case_item" },
+        "use_case_5": { "$ref": "#/definitions/use_case_item" },
+        "use_case_6": { "$ref": "#/definitions/use_case_item" }
+      },
+      "required": ["title"]
+    },
+
+    "more_tools": {
+      "type": "object",
+      "title": "更多工具推荐",
+      "description": "页面底部推荐其他相关工具",
+      "properties": {
+        "title":   { "$ref": "#/definitions/section_title" },
+        "tool_1":  { "$ref": "#/definitions/tool_card" },
+        "tool_2":  { "$ref": "#/definitions/tool_card" },
+        "tool_3":  { "$ref": "#/definitions/tool_card" },
+        "tool_4":  { "$ref": "#/definitions/tool_card" }
+      },
+      "required": ["title"]
+    },
+
+    "faq": {
+      "type": "object",
+      "title": "常见问题 FAQ",
+      "description": "FAQ 区域，建议 4 条",
+      "properties": {
+        "title": { "$ref": "#/definitions/section_title" },
+        "faq_1": { "$ref": "#/definitions/faq_item" },
+        "faq_2": { "$ref": "#/definitions/faq_item" },
+        "faq_3": { "$ref": "#/definitions/faq_item" },
+        "faq_4": { "$ref": "#/definitions/faq_item" }
+      },
+      "required": ["title"]
+    },
+
+    "tips": {
+      "type": "object",
+      "title": "使用技巧 / 推荐文章",
+      "description": "Tips 区域，指向 learn.* 的文章列表",
+      "properties": {
+        "title":  { "$ref": "#/definitions/section_title" },
+        "tip_1": { "$ref": "#/definitions/tip_item" },
+        "tip_2": { "$ref": "#/definitions/tip_item" },
+        "tip_3": { "$ref": "#/definitions/tip_item" },
+        "tip_4": { "$ref": "#/definitions/tip_item" },
+        "tip_5": { "$ref": "#/definitions/tip_item" },
+        "tip_6": { "$ref": "#/definitions/tip_item" },
+        "tip_7": { "$ref": "#/definitions/tip_item" },
+        "tip_8": { "$ref": "#/definitions/tip_item" }
+      },
+      "required": ["title"]
+    },
+
+    "bottom_cta": {
+      "type": "object",
+      "title": "底部 CTA",
+      "description": "页面最底部的行动号召区",
+      "properties": {
+        "title":             { "$ref": "#/definitions/section_title" },
+        "desc":              { "$ref": "#/definitions/text_field", "description": "CTA 描述文字" },
+        "bg_image_url":      { "type": "string", "format": "uri", "description": "背景图 URL（CSS background-image）" },
+        "cta_desktop":       { "$ref": "#/definitions/cta_button", "description": "桌面端 CTA" },
+        "cta_ios":           { "$ref": "#/definitions/cta_button", "description": "iOS 移动端 CTA" },
+        "cta_android":       { "$ref": "#/definitions/cta_button", "description": "Android 移动端 CTA" }
+      },
+      "required": ["title", "desc", "cta_desktop"]
+    }
+
+  },
+
+  "required": ["hero", "steps", "features", "faq", "bottom_cta"]
+}

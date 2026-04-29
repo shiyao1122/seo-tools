@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "generatedAt": 1777384103132,
+    "totalImages": 13,
+    "aiGenerated": 10
+  },
+  "images": [
+    {
+      "index": 1,
+      "type": "generic",
+      "alt": "Unleash Your Inner Royalty with Our AI Princess Generator",
+      "alt_slug": "unleash-your-inner-royalty-with-our-ai-princess-generator",
+      "url": "https://online.hitpaw.com/images/online-tools-land/unleash-your-inner-royalty-with-our-ai-princess-generator.webp",
+      "context": "",
+      "prompt": "A serene, elegant princess sits in a digitally rendered castle garden, showcasing our AI's ability to craft bespoke royal personas. The natural light creates a vibrant, enchanting atmosphere, highlighting the seamless blend of technology and creativity in generating unique princess characters."
+    },
+    {
+      "index": 2,
+      "type": "step",
+      "alt": "Step 1: Upload Your Photo",
+      "alt_slug": "step-1-upload-your-photo",
+      "url": "https://online.hitpaw.com/images/online-tools-land/step-1-upload-your-photo.webp",
+      "context": "Start by uploading a selfie or choose from our selection of royal backgrounds.",
+      "prompt": "Show a clean UI screenshot illustrating \"Step 1\" in using the AI Princess Generator. The image features a simple interface with an option to upload a photo or choose a royal background, setting the stage for a personalized transformation journey."
+    },
+    {
+      "index": 3,
+      "type": "step",
+      "alt": "Step 2: Customize Your Princess",
+      "alt_slug": "step-2-customize-your-princess",
+      "url": "https://online.hitpaw.com/images/online-tools-land/step-2-customize-your-princess.webp",
+      "context": "Use text prompts to add personality and style to your princess. Adjust features to match your desired look.",
+      "prompt": "A seamless UI screenshot showcasing \"Step 2: Customize Your Princess\" in the AI Princess Generator workflow. This clean interface allows users to personalize their creation using text prompts, adding unique personality and style to match their desired royal look."
+    },
+    {
+      "index": 4,
+      "type": "step",
+      "alt": "Step 3: Generate and Share",
+      "alt_slug": "step-3-generate-and-share",
+      "url": "https://online.hitpaw.com/images/online-tools-land/step-3-generate-and-share.webp",
+      "context": "With a single click, create your unique AI-generated princess. Download and share your magical transformation with friends.",
+      "prompt": "Create an image showing a clean UI step in the AI princess generator workflow. Showcase \"Step 3: Generate and Share\" where users can easily transform an image into a unique AI-generated princess and share the magical results."
+    },
+    {
+      "index": 5,
+      "type": "feature",
+      "alt": "Disney-Style Transformation",
+      "alt_slug": "disney-style-transformation",
+      "url": "https://online.hitpaw.com/images/online-tools-land/disney-style-transformation.webp",
+      "context": "Our AI models transform your images into stunning Disney-style princesses.",
+      "prompt": "A split-screen image showcasing the transformation of a regular photo into a Disney-style princess. The left side displays a traditional portrait, while the right reveals a magical, animated princess version. Image title: \"Disney-Style Transformation.\""
+    },
+    {
+      "index": 6,
+      "type": "feature",
+      "alt": "Unlimited Customization Options",
+      "alt_slug": "unlimited-customization-options",
+      "url": "https://online.hitpaw.com/images/online-tools-land/unlimited-customization-options.webp",
+      "context": "Customize every detail, from wardrobe and accessories to hair and makeup.",
+      "prompt": "A split-screen image showcases the transformation of a generic character into a stunning princess using the AI princess generator. The left side features basic features, while the right side shows detailed customization in wardrobe, accessories, hair, and makeup. Image title: \"Unlimited Customization Options.\""
+    },
+    {
+      "index": 7,
+      "type": "feature",
+      "alt": "Free and Easy to Use",
+      "alt_slug": "free-and-easy-to-use",
+      "url": "https://online.hitpaw.com/images/online-tools-land/free-and-easy-to-use.webp",
+      "context": "Experience the magic without any costs or complex procedures. No credit card required.",
+      "prompt": "Split-screen comparison showcasing a plain photo transforming into a stunning AI-generated princess illustration. The left side is a simple, unaltered image; the right reveals a detailed, enchanting princess portrait. Image highlights the transformative power of the AI Princess Generator. Perfectly balanced with elegance and simplicity."
+    },
+    {
+      "index": 8,
+      "type": "usecase",
+      "alt": "Create Animated Stories",
+      "alt_slug": "create-animated-stories",
+      "url": "https://online.hitpaw.com/images/online-tools-land/create-animated-stories.webp",
+      "context": "Generate princess characters for animated storytelling or video content.",
+      "prompt": "Image Prompt: A family gathered in a cozy living room, children eagerly watching animated princess characters come to life on a screen. Parents are smiling, holding a laptop displaying the AI princess generator. Soft, natural light streaming through a window, creating a warm, inviting atmosphere."
+    },
+    {
+      "index": 9,
+      "type": "usecase",
+      "alt": "Personalized Gifts",
+      "alt_slug": "personalized-gifts",
+      "url": "https://online.hitpaw.com/images/online-tools-land/personalized-gifts.webp",
+      "context": "Surprise loved ones with personalized princess portraits, perfect for gifts and keepsakes.",
+      "prompt": "A cozy living room where a family gathers, delighting in customized AI-generated princess portraits. A child gazes at her portrait with wonder, while parents smile, cherishing this unique gift. Soft lighting and warm colors emphasize the joy and personalization of these special keepsakes."
+    },
+    {
+      "index": 10,
+      "type": "usecase",
+      "alt": "Social Media Content",
+      "alt_slug": "social-media-content",
+      "url": "https://online.hitpaw.com/images/online-tools-land/social-media-content.webp",
+      "context": "Engage your audience with unique, royalty-inspired social media posts.",
+      "prompt": "A group of friends enjoying a cozy evening indoors, each viewing personalized AI-generated princess avatars on their devices. Laughter and excitement fill the room as they share their unique, royalty-inspired social media posts, showcasing the creative possibilities of an AI princess generator."
+    },
+    {
+      "index": 11,
+      "type": "tool_icon",
+      "alt": "AI Video Enhancer",
+      "alt_slug": "ai-video-enhancer",
+      "url": "https://online.hitpaw.com/images/online-tools-land/ai-video-enhancer.webp",
+      "context": "Create stunning AI-powered content.",
+      "prompt": null,
+      "source": "tool_icons.json"
+    },
+    {
+      "index": 12,
+      "type": "tool_icon",
+      "alt": "AI Cartoon Video",
+      "alt_slug": "ai-cartoon-video",
+      "url": "https://online.hitpaw.com/images/online-tools-land/ai-cartoon-video.webp",
+      "context": "Create stunning AI-powered content.",
+      "prompt": null,
+      "source": "tool_icons.json"
+    },
+    {
+      "index": 13,
+      "type": "tool_icon",
+      "alt": "AI Photo Enhancer",
+      "alt_slug": "ai-photo-enhancer",
+      "url": "https://online.hitpaw.com/images/online-tools-land/ai-photo-enhancer.webp",
+      "context": "Create stunning AI-powered content.",
+      "prompt": null,
+      "source": "tool_icons.json"
+    }
+  ]
+}

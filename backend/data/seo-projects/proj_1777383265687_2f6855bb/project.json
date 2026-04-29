@@ -1,0 +1,29 @@
+{
+  "id": "proj_1777383265687_2f6855bb",
+  "keyword": "ai princess generator",
+  "createdAt": 1777383265692,
+  "status": "completed",
+  "steps": {
+    "step1": {
+      "status": "completed",
+      "file": "content-proj_1777383265687_2f6855bb.md",
+      "error": "fetch failed",
+      "analysedPages": 9
+    },
+    "step2": {
+      "status": "completed",
+      "file": "image_prompts.json",
+      "totalImages": 13
+    },
+    "step3": {
+      "status": "skipped",
+      "images": []
+    },
+    "step4": {
+      "status": "completed",
+      "files": [],
+      "package": "package-proj_1777383265687_2f6855bb.zip",
+      "templateId": "online-enhance-template-id14451"
+    }
+  }
+}

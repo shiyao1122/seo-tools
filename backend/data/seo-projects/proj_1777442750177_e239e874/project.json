@@ -1,0 +1,25 @@
+{
+  "id": "proj_1777442750177_e239e874",
+  "keyword": "test keyword",
+  "createdAt": 1777442750177,
+  "status": "failed",
+  "steps": {
+    "step1": {
+      "status": "pending",
+      "file": "content-proj_1777442750177_e239e874.md",
+      "error": "fetch failed"
+    },
+    "step2": {
+      "status": "pending",
+      "file": "image_prompts.json"
+    },
+    "step3": {
+      "status": "pending",
+      "images": []
+    },
+    "step4": {
+      "status": "pending",
+      "files": []
+    }
+  }
+}

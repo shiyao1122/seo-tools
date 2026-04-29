@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Q1: Is the AI Princess Generator free to use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our AI Princess Generator is completely free to use with no hidden charges."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q2: Can I create animated versions of my princess?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you can easily transform your character into animated princess videos."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Q3: Do I need any design skills to use this tool?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No design skills are needed. Our tool is user-friendly and simple to use."
+      }
+    }
+  ]
+}

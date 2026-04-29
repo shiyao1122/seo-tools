@@ -1,0 +1,43 @@
+{
+  "id": "online-enhance-template-id14451",
+  "name": "Online Enhance Template 14451",
+  "version": "1.0.0",
+  "description": "HitPaw online tool SEO landing page template.",
+  "files": {
+    "contentTemplate": "content-template.md",
+    "htmlTemplate": "structure.html",
+    "fieldMap": "field-map.json",
+    "partialsDir": "partials"
+  },
+  "partials": {
+    "steps": "step.md",
+    "features": "feature.md",
+    "useCases": "use-case.md",
+    "moreTools": "tool.md",
+    "faqs": "faq.md",
+    "tips": "tip.md"
+  },
+  "defaults": {
+    "ctaPrimaryHref": "https://online.hitpaw.com/online-video-effects.html",
+    "ctaPrimaryText": "Generate for Free",
+    "ctaPrimarySub": "No Installation Required",
+    "ctaSecondaryHref": "https://online.hitpaw.com/pricing/",
+    "ctaSecondaryText": "See Pricing Plans",
+    "ctaMobileText": "Try It Free"
+  },
+  "limits": {
+    "steps": 3,
+    "features": 4,
+    "useCases": 6,
+    "moreTools": 4,
+    "faqs": 4,
+    "tips": 8
+  },
+  "imageFields": [
+    "Hero 图片 URL",
+    "截图 URL",
+    "配图 URL",
+    "卡片图片 URL",
+    "背景图 URL"
+  ]
+}

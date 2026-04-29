@@ -1,0 +1,26 @@
+{
+  "id": "proj_1777384093184_de4f1ec1",
+  "keyword": "ai princess generator",
+  "createdAt": 1777384093185,
+  "status": "step1_done",
+  "steps": {
+    "step1": {
+      "status": "completed",
+      "file": "content-proj_1777384093184_de4f1ec1.md",
+      "error": "fetch failed",
+      "analysedPages": 9
+    },
+    "step2": {
+      "status": "pending",
+      "file": "image_prompts.json"
+    },
+    "step3": {
+      "status": "pending",
+      "images": []
+    },
+    "step4": {
+      "status": "pending",
+      "files": []
+    }
+  }
+}

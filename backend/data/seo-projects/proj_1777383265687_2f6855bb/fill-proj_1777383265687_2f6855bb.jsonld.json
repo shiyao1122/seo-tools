@@ -1,0 +1,63 @@
+{
+  "WebPage": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Unleash Your Inner Royalty with Our AI Princess Generator",
+    "description": "Transform your photos and text prompts into enchanting princess avatars with just a few clicks."
+  },
+  "FAQPage": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Q1: Is the AI Princess Generator free to use?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, our AI Princess Generator is completely free to use with no hidden charges."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Q2: Can I create animated versions of my princess?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, you can easily transform your character into animated princess videos."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Q3: Do I need any design skills to use this tool?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No design skills are needed. Our tool is user-friendly and simple to use."
+        }
+      }
+    ]
+  },
+  "HowTo": {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "ai princess generator: How It Works",
+    "step": [
+      {
+        "@type": "HowToStep",
+        "position": 1,
+        "name": "Step 1: Upload Your Photo",
+        "text": "Start by uploading a selfie or choose from our selection of royal backgrounds."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 2,
+        "name": "Step 2: Customize Your Princess",
+        "text": "Use text prompts to add personality and style to your princess. Adjust features to match your desired look."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 3,
+        "name": "Step 3: Generate and Share",
+        "text": "With a single click, create your unique AI-generated princess. Download and share your magical transformation with friends."
+      }
+    ]
+  }
+}
